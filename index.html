@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /*mobilon*/
+        .col {
+            background: red;
+            width: calc(100% / 3);
+        }
+        /*600px felett*/
+        @media (min-width: 600px) {
+            .col{
+                background: green;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header></header>    
+    <header></header>  
+    <a href="#top">
+        <button class="btn">Ugrás az oldal tetejére</button>
+    </a>  
 </body>
 </html>
