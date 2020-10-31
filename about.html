@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozó oldal</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>About</h1>
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/works.html">Works</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Fontos adatok</h2>
+            <article class="about">
+                <img src="/images/AE_2.jpg" alt="Albert Einstein kis kép" width=600>
+                <h3>Életút</h3>
+                <ol>
+                    <li>Zürichi Műszaki Egyetem</li>
+                    <li>Svájci Szabadalmi Hivatal</li>
+                    <li>Zürichi Egyetem, docens</li>
+                    <li>Prágai Károly Egyetem, professzor</li>
+                    <li>Berlini Egyetem, professzor; Porosz Tudományos Akadémia tagja</li>
+                    <li>Vilmos Császár Fizikai Intézet igazgatója</li>
+                    <li>Nobel-díj</li>
+                    <li>Institute of Technology, Pasadena</li>
+                    <li>Institute for Advanced Study, Princeton</li>
+                </ol>
+                <h3>Munka és doktorátus</h3>
+                <ul>
+                    <li>Brown-mozgás</li>
+                    <li>Fényelektromos jelenség</li>
+                    <li>Speciális relativitáselmélet</li>
+                    <li>Tömeg-energia egyenértékűség</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <form>
+                <fieldset>
+                    <h2>Kapcsolatfelvétel</h2>
+                    <div>
+                        <label for="name">Név:</label>
+                        <input type="text" id="name" name="user_name" required minlength="5">
+                    </div>
+                    <div>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </div>
+                    <div>
+                        <label for="msg">Üzenet:</label>
+                        <textarea id="msg" name="user_message" rows="5" cols="50" minlength="20"></textarea>
+                    </div>
+                    <button type="submit">Küldés</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2020</p>
+        <a href="#header">Vissza az oldal elejére</a>
+    </footer>
+</body>
+
+</html>

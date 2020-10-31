@@ -3,25 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /*mobilon*/
-        .col {
-            background: red;
-            width: calc(100% / 3);
-        }
-        /*600px felett*/
-        @media (min-width: 600px) {
-            .col{
-                background: green;
-            }
-        }
-    </style>
+    <title>Bemutatkozó oldal</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
-    <header></header>  
-    <a href="#top">
-        <button class="btn">Ugrás az oldal tetejére</button>
-    </a>  
-</body>
+    <header id="header">
+        <h1>Bemutatkozás</h1>
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/works.html">Works</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Rövid bemutatkozás</h2>
+                <p>Albert Einstein (Ulm, 1879. március 14. – Princeton, 1955. április 18.) zsidó származású német Nobel-díjas elméleti fizikus; 
+                    egyes tudományos és laikus körökben a legnagyobb 20. századi tudósnak tartják. 
+                    Ő dolgozta ki a relativitáselméletet és nagymértékben hozzájárult a kvantummechanika, 
+                    a statisztikus mechanika és a kozmológia fejlődéséhez. 
+                    1921-ben fizikai Nobel-díjjal jutalmazták „az elméleti fizika területén szerzett eredményeiért, 
+                    különös tekintettel a fényelektromos jelenség törvényszerűségeinek felismeréséért”.</p>
+            </article>
+            <article>
+                <h2>Fő tulajdonságok</h2>
+                <div class="props">
+                    <div><p>zsenialitás</p></div>
+                    <div><p>tudományos ismeretek</p></div>
+                    <div><p>relativitás</p></div>
+                </div>
+            </article>
+            <article>
+                <h2>Képek</h2>
+                <img src="/images/AE_1.jpg" alt="Albert Einstein egész alakos kép" width=600>
+                <img src="/images/AE_2.jpg" alt="Albert Einstein kis kép"  width=600>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2020</p>
+        <a href="#header">Vissza az oldal elejére</a>
+    </footer>
+ </body>
 </html>
