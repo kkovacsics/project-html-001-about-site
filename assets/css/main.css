@@ -105,7 +105,7 @@ textarea {
 }
 
 /*600px felett*/
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .works>img, .about>img {
         float: left;
     }
@@ -114,13 +114,13 @@ textarea {
     }
 }
 
-@media (min-width: 660px) {
+@media screen and (min-width: 660px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .gallery {
         grid-template-columns: repeat(3, 1fr);
     }
