@@ -24,7 +24,7 @@
         <section>
             <h2>Fontos adatok</h2>
             <article class="about">
-                <img src="/images/AE_2.jpg" alt="Albert Einstein kis kép" width=600>
+                <img src="/images/AE_2.jpg" alt="Albert Einstein kis kép" width=500>
                 <h3>Életút</h3>
                 <ol>
                     <li>Zürichi Műszaki Egyetem</li>
@@ -47,20 +47,20 @@
             </article>
         </section>
         <section>
-            <form>
+            <form action="">
                 <fieldset>
                     <h2>Kapcsolatfelvétel</h2>
                     <div>
                         <label for="name">Név:</label>
-                        <input type="text" id="name" name="user_name" required minlength="5">
+                        <input type="text" id="name" name="user_name" minlength="5" required>
                     </div>
                     <div>
                         <label for="mail">Email:</label>
-                        <input type="email" id="mail" name="user_email">
+                        <input type="email" id="mail" name="user_email" required>
                     </div>
                     <div>
                         <label for="msg">Üzenet:</label>
-                        <textarea id="msg" name="user_message" rows="5" cols="50" minlength="20"></textarea>
+                        <textarea id="msg" name="user_message" rows="5" cols="50" minlength="20" required></textarea>
                     </div>
                     <button type="submit">Küldés</button>
                 </fieldset>
